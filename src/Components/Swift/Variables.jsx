@@ -4,10 +4,10 @@ import Card from "./Card";
 const Variables = () => {
   return (
     <div className="py-[5rem] px-[15rem]">
-      <h1 className="text-4xl font-medium p-4 text-white text-left ">
+      <h1 className=" text-xl sm:text-4xl font-medium  p-4 text-white text-left ">
         Variables
       </h1>
-      <p className="text-white text-left px-8 py-4  space-y-8">
+      <p className="text-white text-left px-8 py-4  text-xl  space-y-8">
         In Swift, variables are fundamental building blocks for storing and
         manipulating data. They serve as containers to hold different types of
         information. Let's explore two main types of variables: var and let.

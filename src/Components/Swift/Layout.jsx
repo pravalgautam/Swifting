@@ -10,11 +10,11 @@ const Layout = () => {
     <div className="flex">
       <Navbar></Navbar>
       
-      <div className="left bg-black h-screen w-1/4 overflow-scroll ">
+      <div className="left bg-black h-screen  w-full sm:w-1/4 overflow-scroll ">
         <Sidebar></Sidebar>
       </div>
 
-      <div className="right bg-[#010100] h-screen w-full overflow-scroll  overflow-y-visible">
+      <div className="right bg-[#010100] h-screen  w-0 sm:w-full overflow-scroll  overflow-y-visible">
         
         <Outlet />
 
